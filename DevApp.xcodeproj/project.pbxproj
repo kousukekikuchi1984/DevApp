@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3537897C1ECB40C800E98C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537897B1ECB40C800E98C5A /* AppDelegate.swift */; };
-		3537897E1ECB40C800E98C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537897D1ECB40C800E98C5A /* ViewController.swift */; };
-		353789811ECB40C800E98C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3537897F1ECB40C800E98C5A /* Main.storyboard */; };
 		353789831ECB40C800E98C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353789821ECB40C800E98C5A /* Assets.xcassets */; };
 		353789861ECB40C800E98C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353789841ECB40C800E98C5A /* LaunchScreen.storyboard */; };
 		353789911ECB40C800E98C5A /* DevAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353789901ECB40C800E98C5A /* DevAppTests.swift */; };
@@ -36,8 +34,6 @@
 /* Begin PBXFileReference section */
 		353789781ECB40C800E98C5A /* DevApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3537897B1ECB40C800E98C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3537897D1ECB40C800E98C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		353789801ECB40C800E98C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353789821ECB40C800E98C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353789851ECB40C800E98C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353789871ECB40C800E98C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				3537897B1ECB40C800E98C5A /* AppDelegate.swift */,
-				3537897D1ECB40C800E98C5A /* ViewController.swift */,
-				3537897F1ECB40C800E98C5A /* Main.storyboard */,
 				353789821ECB40C800E98C5A /* Assets.xcassets */,
 				353789841ECB40C800E98C5A /* LaunchScreen.storyboard */,
 				353789871ECB40C800E98C5A /* Info.plist */,
@@ -237,7 +231,6 @@
 			files = (
 				353789861ECB40C800E98C5A /* LaunchScreen.storyboard in Resources */,
 				353789831ECB40C800E98C5A /* Assets.xcassets in Resources */,
-				353789811ECB40C800E98C5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3537897E1ECB40C800E98C5A /* ViewController.swift in Sources */,
 				3537897C1ECB40C800E98C5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +291,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3537897F1ECB40C800E98C5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				353789801ECB40C800E98C5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		353789841ECB40C800E98C5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -514,6 +498,7 @@
 				353789A21ECB40C800E98C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		353789A31ECB40C800E98C5A /* Build configuration list for PBXNativeTarget "DevAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +507,7 @@
 				353789A51ECB40C800E98C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		353789A61ECB40C800E98C5A /* Build configuration list for PBXNativeTarget "DevAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +516,7 @@
 				353789A81ECB40C800E98C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
